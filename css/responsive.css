@@ -1,0 +1,257 @@
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {     
+        background: #3f3e3e;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../image/about01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding-top: 100px;
+    }
+    .banner-text {
+        padding-bottom: 130px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {
+        padding-bottom: 10px;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+        padding: 50px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-bottom-text a {
+        display: block;
+        width: 100%;
+    }
+    .project-bottom a {
+        width: 100%;
+    }
+    .team-arrow-left {
+       display: none !important;
+    }
+    .team-arrow-right {
+        display: none !important;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3 {
+        padding-top: 35px;
+    }
+    .contact-left h3, .contact-right h3 {
+        text-align: center;
+    }
+    .footer-top-middle h4, .footer-top-right h4 {
+        margin-right: 75px;
+    }
+    .contact-left h3, .contact-right h3 {
+        text-align: center;
+    }
+   .footer-top-right h4 {
+        margin-right: 75px;
+    }
+    .footer-top-middle p {
+        margin-right: 70px;
+    }
+    .footer-top-right ul {
+        margin-right: 70px;
+    }
+    .footer-bottom-left ul li a {
+        font-size: 10px;
+    }
+    .footer-bottom-right {
+        font-size: 10px;
+    }
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {     
+        background: #3f3e3e;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../image/about01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding-top: 100px;
+    }
+    .banner-text {
+        padding-bottom: 130px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {
+        padding-bottom: 10px;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+        padding: 80px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-bottom-text a {
+        display: block;
+        width: 100%;
+    }
+    .project-bottom a {
+        width: 100%;
+    }
+    .team-arrow-left {
+        top: 83%;
+        left: 2%;
+    }
+    .team-arrow-right {
+        top: 83%;
+        right: 2%;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3 {
+        padding-top: 35px;
+    }
+    .contact-left h3, .contact-right h3 {
+        text-align: center;
+    }
+   .footer-top-right h4 {
+        margin-right: 75px;
+    }
+    .footer-top-middle p {
+        margin-right: 70px;
+    }
+    .footer-top-right ul {
+        margin-right: 70px;
+    }
+    .footer-bottom-left ul li a {
+        font-size: 10px;
+    }
+    .footer-bottom-right {
+        font-size: 10px;
+    }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {     
+        background: #3f3e3e;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../image/about01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding-top: 130px;
+    }
+    .banner-text {
+        padding-bottom: 140px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {
+        padding-bottom: 10px;
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+        padding: 100px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-bottom-text a {
+        display: block;
+        width: 100%;
+    }
+    .project-bottom a {
+        width: 100%;
+    }
+    .team-arrow-left {
+        top: 81%;
+        left: 14%;
+    }
+    .team-arrow-right {
+        top: 81%;
+        right: 13%;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right H3 {
+        padding-top: 35px;
+    }
+    .contact-left h3, .contact-right H3 {
+        text-align: center;
+    }
+   
+    .footer-top-right ul {
+        margin-right: 200px;
+    }
+    .footer-top-left p {
+        padding: 0 25px 0 0;
+    }
+    .footer-top-middle h4, .footer-top-right h4 {
+        margin-right: 29px;
+    }
+    .footer-top-middle h4, .footer-top-right h4 {
+        margin-right: 100px;
+    }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

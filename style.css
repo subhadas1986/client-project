@@ -1,0 +1,693 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Menu Part css Starts */
+.navbar-light .navbar-nav .active > .nav-link {
+	color: #07c8c0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar-light .navbar-nav .nav-link:focus,
+ .navbar-light .navbar-nav .nav-link:hover {
+	color: #07c8c0;
+}
+.nav-bg {
+    background: #18113a;
+}
+.navbar {
+    transition: 1s all ease;
+}
+/* Menu Part acc Ends */
+
+/* Banner Part Css Starts */
+#banner-part {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#banner-part::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 17, 58, 0.8);
+}
+
+.banner-text {
+    position: relative;
+    z-index: 999;
+    padding-top: 228px;
+    padding-bottom: 205px;
+}
+
+.banner-text h2 {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+.banner-text h2::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #07c8c0;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+}
+
+.banner-text p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 55px 115px 50px 115px;
+}
+
+.banner-text a {
+    border: 1px solid #07c8c0;
+    padding: 15px 30px;
+    color: #07c8c0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+/* Banner Part Css Ends */
+
+/* About Part Css Starts */
+#about-part {
+    padding: 70px;
+}
+
+.about-text h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin-bottom: 0%; 
+}
+
+.about-text p {
+    color: #716a78;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 30px;
+    margin-bottom: 0%; 
+
+}
+
+.about-text a {
+    border: 1px solid #07c8c0;
+    padding: 15px 30px;
+    color: #07c8c0;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+}
+/* About Part Css Ends */
+
+/* Video Part css Starts */
+#video-part {
+    background-image: url(image/video-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0;
+}
+#video-part::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 17, 58, 0.8);
+    
+}
+.video-icon {
+    z-index: 100;
+    position: relative;
+}
+.video-i {
+    color: #fff;
+    font-size: 45px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+.video-icon h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 34px;
+}
+
+/* Video Part css Ends */
+
+/* Service Part css Starts */
+#service-part {
+    padding: 70px 0;
+}
+
+.service-head h2 {
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.service-head p {
+    color: #78767c;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    position: relative;
+}
+
+.service-head p::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #78767c;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+}
+
+.service-text {
+    padding-top: 80px;
+}
+
+.service-text img {
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+
+.service-text h5 {
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.service-text p {
+    color: #7a7a7a;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 52px;
+
+}
+/* Service Part css Ends */
+
+/* Slick Slider css start */
+.banner-slider {
+    z-index: 95;
+    position: relative;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    color: transparent;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    border: none;
+    background: #00e0d0;
+    opacity: 0;
+    transition: .5s all ease;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+/* Slick Slider css end */
+
+/* Team Part css Starts */
+#team-part {
+    background: url(image/team.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0;
+}
+
+#team-part::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 17, 58, 0.8);
+}
+
+.team-top-text {
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.team-top-text h3 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.team-top-text p {
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+.team-top-text p::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #655b80;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.team-member {
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    color: #fff;
+}
+
+.team-card {
+    background: none;
+    border: 1px solid #fff;
+}
+
+.team-member h5 {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.team-member p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.team-bottom-text {
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+
+.team-bottom-text p {
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 28px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+
+}
+.team-bottom-text a {
+    border: 1px solid #07c8c0;
+    padding: 15px 30px;
+    color: #07c8c0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Team Part css Ends */
+
+.team-slider {
+    z-index: 100;
+    position: relative;
+}
+
+/* Project Part css Start */
+#project {
+    padding: 70px 0;
+}
+.project-part-left {
+    padding-bottom: 70px;
+}
+.project-part-left h3 {
+    font-size: 22px;;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #413d4b;
+    text-transform: uppercase;
+}
+
+.project-part-right p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+    color: #413d4b;
+    
+}
+
+.project-bottom a {
+    border: 1px solid #07c8c0;
+    padding: 15px 30px;
+    color: #07c8c0;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
+}
+/* Project Part css End */
+
+/* Team Two Part css Start */
+#team-two {
+    background: url(image/team-two-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    padding: 70px 0;
+    position: relative;
+}
+
+#team-two::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 17, 58, 0.8);
+}
+
+.team-slider-text {
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+
+.team-slider-text i {
+    font-size: 30px;
+    padding-bottom: 45px;
+}
+
+.team-slider-text p {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    line-height: 28px;
+    padding: 0 90px;
+    padding-bottom: 50px;
+}
+
+.team-slider-text h4 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-slider-text h5 {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+.team-slider-img {
+    position: relative;
+    z-index: 100;
+}
+.team-slider-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.slider-img {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+.text-slide {
+    position: relative;
+    z-index: 100;
+}
+
+.team-arrow-left {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    top: 80%;
+    left: 28%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.team-arrow-right {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    top: 80%;
+    right: 27%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.slick-center .team-slider-img img {
+    border: 3px solid red;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+/* Team Two Part css End */
+/* Contact Part css Start */
+#contact {
+    padding: 70px 0;
+}
+.contact-left h3, .contact-right H3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #413d4b;
+    padding-bottom: 35px;
+}
+
+.contact-left a {
+    border: 1px solid #07c8c0;
+    padding: 10px 40px;
+    color: #07c8c0;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* Contact Part css End */
+/* Footer Part Css Start */
+#footer {
+    background: url(image/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    padding: 70px 0;
+    position: relative;
+}
+
+#footer::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 17, 58, 0.8);
+}
+
+.footer-top-wrap {
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.footer-top-left img {
+    padding-bottom: 30px;
+}
+.footer-top-left p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 0 72px 0 0;
+    
+}
+.footer-top-middle h4, .footer-top-right h4 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.footer-top-middle p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.footer-top-middle i {
+    margin-right: 10px;
+}
+
+.footer-top-right input {
+    background: none;
+    color: #fff;
+    border-radius: 0;
+}
+.btn-custom {
+    background: #9a92ac;
+    border-radius: 0;
+    padding: 8px 30px;
+    opacity: 0.5
+}
+.btn-custom i {
+    font-size: 20px;
+}
+.footer-top-right ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+.footer-top-right ul {
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.footer-top-right ul li a i {
+    color: #fff;
+}
+
+.footer-bottom-wrap {
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+.footer-bottom-left ul {
+    padding: 0;
+    margin-top: 50px;
+}
+.footer-bottom-left ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-bottom-left ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-bottom-right {
+    margin-top: 50px;
+}
+/* Footer Part Css End */
+
+/* Type Css Start */
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* Type Css End */
+
